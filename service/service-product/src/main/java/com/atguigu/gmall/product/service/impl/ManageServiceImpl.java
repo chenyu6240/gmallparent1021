@@ -48,7 +48,7 @@ public class ManageServiceImpl implements ManageService {
         return baseAttrInfoMapper.selectBaseAttrInfoList(category1Id,category2Id,category3Id);
     }
 
-    //冲冲
+    //提交代码练习
     @Override
     @Transactional(rollbackFor = Exception.class)  //如果有异常会回滚
     public void saveAttrInfo(BaseAttrInfo baseAttrInfo) {
